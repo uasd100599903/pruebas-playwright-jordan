@@ -1,0 +1,54 @@
+{
+  "menu": [
+    {
+      "id": "inicio",
+      "nombre": "Inicio",
+      "icono": "🏠",
+      "enlace": "#inicio",
+      "texto": "Bienvenido al Banco Futuro. Este menú se carga desde el archivo menu.json, no está escrito en el HTML."
+    },
+    {
+      "id": "cuentas",
+      "nombre": "Cuentas",
+      "icono": "💰",
+      "enlace": "#cuentas",
+      "texto": "Aquí puedes ver los tipos de cuentas que ofrece el banco.",
+      "hijos": [
+        { "id": "ahorro", "nombre": "Cuenta de ahorro", "enlace": "#ahorro", "texto": "Guarda tu dinero y gana intereses." },
+        { "id": "corriente", "nombre": "Cuenta corriente", "enlace": "#corriente", "texto": "Ideal para pagos y cheques." }
+      ]
+    },
+    {
+      "id": "prestamos",
+      "nombre": "Préstamos",
+      "icono": "🏦",
+      "enlace": "#prestamos",
+      "texto": "Opciones de crédito para personas y negocios.",
+      "hijos": [
+        { "id": "personal", "nombre": "Préstamo personal", "enlace": "#personal", "texto": "Cuotas fijas de 6 a 60 meses." },
+        { "id": "hipotecario", "nombre": "Préstamo hipotecario", "enlace": "#hipotecario", "texto": "Para comprar o construir tu casa." }
+      ]
+    },
+    {
+      "id": "servicios",
+      "nombre": "Servicios en línea",
+      "icono": "💻",
+      "enlace": "#servicios",
+      "texto": "Transferencias, pagos de servicios y consulta de saldo desde el celular."
+    },
+    {
+      "id": "sb",
+      "nombre": "Superintendencia de Bancos",
+      "icono": "🔗",
+      "enlace": "https://www.sb.gob.do/",
+      "texto": "Enlace externo."
+    },
+    {
+      "id": "contacto",
+      "nombre": "Contacto",
+      "icono": "📞",
+      "enlace": "#contacto",
+      "texto": "Teléfono: 809-555-0100. Correo: servicio@bancofuturo.example"
+    }
+  ]
+}

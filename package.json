@@ -1,0 +1,13 @@
+{
+  "name": "pruebas-playwright-jordan",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas de UI y API con Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "reporte": "playwright show-report reporte"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "http-server": "^14.1.1"
+  }
+}

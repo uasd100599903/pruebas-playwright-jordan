@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menú dinámico - Banco Futuro</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Banco Futuro</h1>
+  <p>Menú dinámico con JSON</p>
+</header>
+
+<nav>
+  <ul id="lista-menu"></ul>
+</nav>
+
+<main>
+  <section id="contenido">Cargando...</section>
+
+  <section>
+    <h2>Agregar opción al menú</h2>
+    <form id="formulario">
+      <label>ID (único, sin espacios): <input id="f-id" required></label>
+      <label>Nombre: <input id="f-nombre" required maxlength="30"></label>
+      <label>Icono (opcional): <input id="f-icono" maxlength="4"></label>
+      <label>Enlace (#algo o https://...): <input id="f-enlace" required></label>
+      <label>Texto: <textarea id="f-texto" rows="2"></textarea></label>
+      <label>Dentro de: <select id="f-padre"></select></label>
+      <button type="submit">Agregar</button>
+      <p id="mensaje"></p>
+    </form>
+
+    <h3>Opciones del menú</h3>
+    <ul id="admin"></ul>
+  </section>
+</main>
+
+<footer>Jordany Sosa - 100599903 - INF5170-1</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
